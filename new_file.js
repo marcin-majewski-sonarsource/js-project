@@ -14,3 +14,12 @@ class A {
     return this.x;
   }
 }
+
+function getLength(a, b, c) {
+  const strings = [];  // Noncompliant
+  strings.push(a);
+  strings.push(b);
+  strings.push(c);
+
+  return a.length + b.length + c.length;
+}
