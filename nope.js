@@ -1,5 +1,5 @@
 'use strict';
-
+console.log('bla');
 Metalsmith(__dirname)
   .use(markdown())
   .use(layouts('handlebars'))
