@@ -1,6 +1,7 @@
 class A {
   private _x: number = 0;
   private y: number = 0;
+  private z: number = 0;
 
   public get x() {  // Noncompliant: field 'x' is not used in the return value
     return this.y;
