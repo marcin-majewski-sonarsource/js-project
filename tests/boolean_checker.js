@@ -1,4 +1,4 @@
-BooleanChecker = require('../src/javascript/boolean_checker')
+let BooleanChecker = require('../src/javascript/boolean_checker')
 
 describe('Booleans', function() {
 
