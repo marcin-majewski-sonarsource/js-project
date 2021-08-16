@@ -8,7 +8,7 @@ class A {
   }
 
   public setX(val: number) { // Noncompliant: field 'x' is not updated
-    this.y = val;
+    this._x = val;
   }
 
   public getY() { // Noncompliant: field 'y' is not used in the return value
