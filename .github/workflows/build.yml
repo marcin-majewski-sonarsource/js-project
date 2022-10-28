@@ -20,4 +20,4 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-          -Dsonar.host.url=https://squad-3-core.sc-dev.io
+            -Dsonar.host.url=https://squad-3-core.sc-dev.io
